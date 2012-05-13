@@ -3,7 +3,6 @@
 See [this blog post](http://www.shipsomecode.com/software/a-tool-for-designing-better-os-x-status-items/) for a full explanation and a demo.
 
 You can download an already compiled version of the app from [here.](http://www.shipsomecode.com/wp-content/uploads/2012/05/StatusItemTester-1.0.zip)
-
 It is compatible with OS X 10.6 & 10.7
 
 Developed by [John Winter](http://shipsomecode.com) (john@aptonic.com)
