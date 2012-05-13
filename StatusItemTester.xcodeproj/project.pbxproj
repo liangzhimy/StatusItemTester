@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521B416E155F642500ACDDCA /* statusitem.png in Resources */ = {isa = PBXBuildFile; fileRef = 521B416D155F642500ACDDCA /* statusitem.png */; };
+		5272E9D9155F437500CE6DE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5272E9D0155F437200CE6DE5 /* AppDelegate.m */; };
+		5272E9DA155F437500CE6DE5 /* GHNSString+TimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 5272E9D1155F437300CE6DE5 /* GHNSString+TimeInterval.m */; };
+		5272E9DB155F437500CE6DE5 /* ImageViewAcceptDrags.m in Sources */ = {isa = PBXBuildFile; fileRef = 5272E9D2155F437300CE6DE5 /* ImageViewAcceptDrags.m */; };
+		5272E9DD155F437500CE6DE5 /* StatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5272E9D4155F437300CE6DE5 /* StatusItem.m */; };
+		5272E9DE155F437500CE6DE5 /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5272E9D5155F437400CE6DE5 /* StatusItemView.m */; };
+		5272E9DF155F437500CE6DE5 /* UKFileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5272E9D6155F437400CE6DE5 /* UKFileWatcher.m */; };
+		5272E9E0155F437500CE6DE5 /* UKKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5272E9D7155F437400CE6DE5 /* UKKQueue.m */; };
+		5272E9E1155F437500CE6DE5 /* UKMainThreadProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5272E9D8155F437400CE6DE5 /* UKMainThreadProxy.m */; };
+		5272E9E5155F43DF00CE6DE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5272E9E4155F43DF00CE6DE5 /* main.m */; };
+		5272E9E8155F441700CE6DE5 /* drag.png in Resources */ = {isa = PBXBuildFile; fileRef = 5272E9E6155F441700CE6DE5 /* drag.png */; };
+		5272E9EC155F447F00CE6DE5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5272E9EA155F447F00CE6DE5 /* MainMenu.xib */; };
+		5272E9EF155F448400CE6DE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5272E9ED155F448400CE6DE5 /* InfoPlist.strings */; };
+		52EE1DC1155CC75200474E25 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EE1DC0155CC75200474E25 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		521B416D155F642500ACDDCA /* statusitem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusitem.png; sourceTree = SOURCE_ROOT; };
+		5272E9C8155F437100CE6DE5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		5272E9C9155F437100CE6DE5 /* GHNSString+TimeInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GHNSString+TimeInterval.h"; sourceTree = SOURCE_ROOT; };
+		5272E9CA155F437100CE6DE5 /* ImageViewAcceptDrags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewAcceptDrags.h; sourceTree = SOURCE_ROOT; };
+		5272E9CB155F437100CE6DE5 /* StatusItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItem.h; sourceTree = SOURCE_ROOT; };
+		5272E9CC155F437200CE6DE5 /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemView.h; sourceTree = SOURCE_ROOT; };
+		5272E9CD155F437200CE6DE5 /* UKFileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKFileWatcher.h; sourceTree = SOURCE_ROOT; };
+		5272E9CE155F437200CE6DE5 /* UKKQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKKQueue.h; sourceTree = SOURCE_ROOT; };
+		5272E9CF155F437200CE6DE5 /* UKMainThreadProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKMainThreadProxy.h; sourceTree = SOURCE_ROOT; };
+		5272E9D0155F437200CE6DE5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		5272E9D1155F437300CE6DE5 /* GHNSString+TimeInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GHNSString+TimeInterval.m"; sourceTree = SOURCE_ROOT; };
+		5272E9D2155F437300CE6DE5 /* ImageViewAcceptDrags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewAcceptDrags.m; sourceTree = SOURCE_ROOT; };
+		5272E9D4155F437300CE6DE5 /* StatusItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItem.m; sourceTree = SOURCE_ROOT; };
+		5272E9D5155F437400CE6DE5 /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = SOURCE_ROOT; };
+		5272E9D6155F437400CE6DE5 /* UKFileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKFileWatcher.m; sourceTree = SOURCE_ROOT; };
+		5272E9D7155F437400CE6DE5 /* UKKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKKQueue.m; sourceTree = SOURCE_ROOT; };
+		5272E9D8155F437400CE6DE5 /* UKMainThreadProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKMainThreadProxy.m; sourceTree = SOURCE_ROOT; };
+		5272E9E4155F43DF00CE6DE5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		5272E9E6155F441700CE6DE5 /* drag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drag.png; sourceTree = SOURCE_ROOT; };
+		5272E9EB155F447F00CE6DE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		5272E9EE155F448400CE6DE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		52EE1DBC155CC75200474E25 /* StatusItemTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusItemTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EE1DC0155CC75200474E25 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		52EE1DC3155CC75200474E25 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		52EE1DC4155CC75200474E25 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		52EE1DC5155CC75200474E25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52EE1DC8155CC75200474E25 /* StatusItemTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "StatusItemTester-Info.plist"; sourceTree = "<group>"; };
+		52EE1DCE155CC75200474E25 /* StatusItemTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StatusItemTester-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52EE1DB9155CC75200474E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EE1DC1155CC75200474E25 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5272E9F0155F44B400CE6DE5 /* File Monitoring */ = {
+			isa = PBXGroup;
+			children = (
+				5272E9CE155F437200CE6DE5 /* UKKQueue.h */,
+				5272E9D7155F437400CE6DE5 /* UKKQueue.m */,
+				5272E9CF155F437200CE6DE5 /* UKMainThreadProxy.h */,
+				5272E9D8155F437400CE6DE5 /* UKMainThreadProxy.m */,
+				5272E9CD155F437200CE6DE5 /* UKFileWatcher.h */,
+				5272E9D6155F437400CE6DE5 /* UKFileWatcher.m */,
+			);
+			name = "File Monitoring";
+			sourceTree = "<group>";
+		};
+		52EE1DB1155CC75200474E25 = {
+			isa = PBXGroup;
+			children = (
+				52EE1DC6155CC75200474E25 /* StatusItemTester */,
+				52EE1DBF155CC75200474E25 /* Frameworks */,
+				52EE1DBD155CC75200474E25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52EE1DBD155CC75200474E25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52EE1DBC155CC75200474E25 /* StatusItemTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52EE1DBF155CC75200474E25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52EE1DC0155CC75200474E25 /* Cocoa.framework */,
+				52EE1DC2155CC75200474E25 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52EE1DC2155CC75200474E25 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52EE1DC3155CC75200474E25 /* AppKit.framework */,
+				52EE1DC4155CC75200474E25 /* CoreData.framework */,
+				52EE1DC5155CC75200474E25 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		52EE1DC6155CC75200474E25 /* StatusItemTester */ = {
+			isa = PBXGroup;
+			children = (
+				5272E9C8155F437100CE6DE5 /* AppDelegate.h */,
+				5272E9D0155F437200CE6DE5 /* AppDelegate.m */,
+				5272E9CA155F437100CE6DE5 /* ImageViewAcceptDrags.h */,
+				5272E9D2155F437300CE6DE5 /* ImageViewAcceptDrags.m */,
+				5272E9CB155F437100CE6DE5 /* StatusItem.h */,
+				5272E9D4155F437300CE6DE5 /* StatusItem.m */,
+				5272E9CC155F437200CE6DE5 /* StatusItemView.h */,
+				5272E9D5155F437400CE6DE5 /* StatusItemView.m */,
+				5272E9C9155F437100CE6DE5 /* GHNSString+TimeInterval.h */,
+				5272E9D1155F437300CE6DE5 /* GHNSString+TimeInterval.m */,
+				5272E9F0155F44B400CE6DE5 /* File Monitoring */,
+				52EE1DC7155CC75200474E25 /* Supporting Files */,
+			);
+			name = StatusItemTester;
+			path = MenuItemTester;
+			sourceTree = "<group>";
+		};
+		52EE1DC7155CC75200474E25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5272E9E4155F43DF00CE6DE5 /* main.m */,
+				5272E9E6155F441700CE6DE5 /* drag.png */,
+				521B416D155F642500ACDDCA /* statusitem.png */,
+				52EE1DC8155CC75200474E25 /* StatusItemTester-Info.plist */,
+				5272E9ED155F448400CE6DE5 /* InfoPlist.strings */,
+				52EE1DCE155CC75200474E25 /* StatusItemTester-Prefix.pch */,
+				5272E9EA155F447F00CE6DE5 /* MainMenu.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52EE1DBB155CC75200474E25 /* StatusItemTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EE1DDA155CC75300474E25 /* Build configuration list for PBXNativeTarget "StatusItemTester" */;
+			buildPhases = (
+				52EE1DB8155CC75200474E25 /* Sources */,
+				52EE1DB9155CC75200474E25 /* Frameworks */,
+				52EE1DBA155CC75200474E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatusItemTester;
+			productName = MenuItemTester;
+			productReference = 52EE1DBC155CC75200474E25 /* StatusItemTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52EE1DB3155CC75200474E25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Aptonic Software";
+			};
+			buildConfigurationList = 52EE1DB6155CC75200474E25 /* Build configuration list for PBXProject "StatusItemTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52EE1DB1155CC75200474E25;
+			productRefGroup = 52EE1DBD155CC75200474E25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52EE1DBB155CC75200474E25 /* StatusItemTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52EE1DBA155CC75200474E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5272E9E8155F441700CE6DE5 /* drag.png in Resources */,
+				5272E9EC155F447F00CE6DE5 /* MainMenu.xib in Resources */,
+				5272E9EF155F448400CE6DE5 /* InfoPlist.strings in Resources */,
+				521B416E155F642500ACDDCA /* statusitem.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52EE1DB8155CC75200474E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5272E9D9155F437500CE6DE5 /* AppDelegate.m in Sources */,
+				5272E9DA155F437500CE6DE5 /* GHNSString+TimeInterval.m in Sources */,
+				5272E9DB155F437500CE6DE5 /* ImageViewAcceptDrags.m in Sources */,
+				5272E9DD155F437500CE6DE5 /* StatusItem.m in Sources */,
+				5272E9DE155F437500CE6DE5 /* StatusItemView.m in Sources */,
+				5272E9DF155F437500CE6DE5 /* UKFileWatcher.m in Sources */,
+				5272E9E0155F437500CE6DE5 /* UKKQueue.m in Sources */,
+				5272E9E1155F437500CE6DE5 /* UKMainThreadProxy.m in Sources */,
+				5272E9E5155F43DF00CE6DE5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5272E9EA155F447F00CE6DE5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5272E9EB155F447F00CE6DE5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5272E9ED155F448400CE6DE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5272E9EE155F448400CE6DE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52EE1DD8155CC75300474E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		52EE1DD9155CC75300474E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		52EE1DDB155CC75300474E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusItemTester-Prefix.pch";
+				INFOPLIST_FILE = "StatusItemTester-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = StatusItemTester;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52EE1DDC155CC75300474E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusItemTester-Prefix.pch";
+				INFOPLIST_FILE = "StatusItemTester-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = StatusItemTester;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52EE1DB6155CC75200474E25 /* Build configuration list for PBXProject "StatusItemTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EE1DD8155CC75300474E25 /* Debug */,
+				52EE1DD9155CC75300474E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EE1DDA155CC75300474E25 /* Build configuration list for PBXNativeTarget "StatusItemTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EE1DDB155CC75300474E25 /* Debug */,
+				52EE1DDC155CC75300474E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52EE1DB3155CC75200474E25 /* Project object */;
+}
