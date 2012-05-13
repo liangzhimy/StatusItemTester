@@ -16,6 +16,7 @@
     IBOutlet StatusItem *statusItem;
     IBOutlet NSTextField *monitoringLabel;
     IBOutlet NSTextField *lastUpdatedLabel;
+    IBOutlet NSWindow *window;
     NSDate *lastUpdateTime;
     NSTimer *timeAgoTimer;
 }

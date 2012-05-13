@@ -1,12 +1,13 @@
 # Status Item Tester
 
-See the [here](http://shipsomecode.com) for a demo and more info.
+See [this blog post](http://www.shipsomecode.com/software/a-tool-for-designing-better-os-x-status-items/) for a full explanation and a demo.
+You can download 
 
 Developed by [John Winter](http://shipsomecode.com) (john@aptonic.com)
 
 ## Usage
 
-To use Status Item Tester, clone this repository then compile with Xcode 4 and then drag an image file onto the window. 
+To use Status Item Tester clone this repository, compile with Xcode 4 and then drag an image file onto the window. 
 
 When a change to the file is detected
 the status item will be automatically updated. 

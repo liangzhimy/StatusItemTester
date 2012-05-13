@@ -10,7 +10,7 @@
 
 @implementation AppDelegate
 
-@synthesize window = _window, monitorPaths, lastUpdateTime, timeAgoTimer;
+@synthesize window, monitorPaths, lastUpdateTime, timeAgoTimer;
 
 - (id)init
 {
